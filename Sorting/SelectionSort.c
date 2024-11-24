@@ -5,8 +5,8 @@ int main()
     printf("enter size of array: \n");
     scanf("%d", &n);
     int arr[n];
-    printf("Enter %d values for the array:\n", n);
-    
+    printf("input %d values for array:\n", n);
+
     for (int i = 0; i < n; i++) 
     {
         printf("Value %d: ", i + 1);
